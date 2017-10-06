@@ -1,0 +1,31 @@
+<hr>
+<h2>SSE Uploader Widget++</h2>
+<form id='fileuploader'>
+    <label class="btn btn-default btn-file">
+        <input id="files" data-bind="event: {change: sendFileToOCC}" type="file" accept="application/zip" />
+    </label>
+</form>
+<hr>
+<div id="mainContent">
+    <form class="form-horizontal">
+        <fieldset>
+            <legend>Extension Files</legend>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach:extensionItems">
+                    <tr>
+                        <td data-bind="text: name"></td>
+                        <td data-bind="">
+                            <button id="deleteExtension" data-bind="click: $parent.deleteExtension.bind($data,name)" name="deleteExtension" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</div>

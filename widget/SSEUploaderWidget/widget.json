@@ -1,0 +1,7 @@
+{
+    "availableToAllPages": true,
+    "name": "SSE Uploader Widget",
+    "javascript": "SSEUploaderWidget",
+    "jsEditable": true,
+    "version": 1
+}

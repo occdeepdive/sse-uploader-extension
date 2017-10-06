@@ -1,0 +1,9 @@
+{
+    "extensionID": "3ae52027-e4c2-4481-bd11-5a05c63e0fbc",
+    "developerID": "123",
+    "createdBy": "LAD Commerce SC Team",
+    "name": "SSE Uploader Extension",
+    "version": 1,
+    "timeCreated": "2017-10-05",
+    "description": "Provides a widget that uploads Server Side Extensions"
+}
